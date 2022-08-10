@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+body{
+  background-color: #18191a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.darkmode{
+  background-color: #242526;
+}
+
+
+.post-form, .feed, .Trend, .mainbutton{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bleu{
+  background-color: #0867df;
+  color:white;
+}
+
+#posts{
+  display:none;
+}
