@@ -1,5 +1,5 @@
 const form = document.querySelector('form');//form that collects data
-const API_URL = window.location.hostname === 'localhost' ? 'http://localhost:5000/feed' : 'https://social-media-luisvicuna-cunyedu.vercel.app/feed' //where is the data going to .. send to dynamic server
+const API_URL = 'http://localhost:5000/feed'//where is the data going to .. send to dynamic server
 const feedElement = document.querySelector('.feed');//feed that contains data
 const posts = document.getElementById('posts');//posts the data on the site
 const btn = document.getElementById('toggle');//submit button

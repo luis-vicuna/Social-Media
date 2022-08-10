@@ -2,7 +2,7 @@ const express = require('express');//framework that  helps manage servers
 const cors = require('cors');// eliminate communictaion error
 const app = express();//library
 const monk = require('monk')//substantial usability improvements for MongoDB usage within Node.JS
-const db = monk(process.env.MONGO_URI || 'localhost/feeder');//mongodb
+const db = monk('localhost/feeder');//mongodb
 const feed = db.get('feed');//create collection in database
 
 app.use(cors());//stops fetch error
